@@ -18,7 +18,7 @@ def print_recipe(language):
         misturar_amassar_massa()
         fermentar_massa()
         assar_pao()
-        print_centered_header("😋  Bom Apetite! 😋", "32")
+        
     elif language == "2":
         # Receita em inglês
         print_english_recipe()
@@ -56,7 +56,7 @@ def preparar_massa():
     for ingrediente in outros_ingredientes:
         time.sleep(2)
         print(ingrediente)
-    time.sleep(3)
+    time.sleep(2)
 
 def misturar_amassar_massa():
     time.sleep(2)
